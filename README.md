@@ -3,6 +3,6 @@
 
 #可搭配crontab使用
 
-```0 */8 * * * /usr/bin/python3 /root/pttac.py```
+```0 */8 * * * /usr/bin/python3 /root/pttac.py
 
-[參考&修改自](https://github.com/twtrubiks/PttAutoLoginPost)
+[修改自PttAutoLoginPost](https://github.com/twtrubiks/PttAutoLoginPost)
