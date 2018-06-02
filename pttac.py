@@ -1,6 +1,4 @@
-import sys
-import telnetlib
-import time
+import sys,telnetlib,time
 def logNprint(text):
     print(text)
     with open("pttac.log","a") as data:
@@ -68,8 +66,6 @@ class Ptt(object):
 		return False
 
 	def logout(self):
-		#logNprint("登出中...")
-		# q = 上一頁，直到回到首頁為止，g = 離開，再見
 		self._telnet.write(b"qqqqqqqqqg\r\ny\r\n")
 		time.sleep(1)
 		self._telnet.close()
