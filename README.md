@@ -1,4 +1,4 @@
-# python-pttautologin-mu
+# Python-PTTautologin-mu
 多用戶的PTT自動登入程式
 ## 使用方法
 在pttac.txt內輸入帳號密碼，中間以","分隔，每行輸入一組帳號
